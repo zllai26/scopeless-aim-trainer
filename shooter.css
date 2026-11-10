@@ -1,0 +1,25 @@
+body { margin: 0; }
+
+#score {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#bg {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.shooter {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 100%;
+}
