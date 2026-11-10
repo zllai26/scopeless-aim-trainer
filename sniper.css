@@ -1,0 +1,13 @@
+#shooter {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 100%;
+}
+
+#bg {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
