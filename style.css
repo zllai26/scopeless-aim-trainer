@@ -1,0 +1,45 @@
+#sniper {
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 6px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+#sniper:hover {
+    background-color: #2563eb;
+}
+
+#normal {
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 6px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+#normal:hover {
+    background-color: #2563eb;
+}
+
+body {
+    background-color: #4F4646;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
